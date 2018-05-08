@@ -33,11 +33,10 @@
     $(document).ready(() => {
       $('.button-collapse').sideNav();
       $('select').material_select();
+      $('.slider').slider();
     });
 
-   CKEDITOR.replace('body',{
-      plugins: 'wysiwygarea,toolbar,basicstyles,link'
-    });
+   CKEDITOR.replace('body');
   </script>
 </body>
 </html>
